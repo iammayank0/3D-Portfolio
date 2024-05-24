@@ -20,9 +20,12 @@ import {
     tesla,
     shopify,
     carrent,
+    JMJ,
     jobit,
+    myNotebook,
     tripguide,
     threejs,
+    textutils,
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +121,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "Starbucks",
-      icon: starbucks,
+      icon: reactjs,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -144,7 +147,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      icon: javascript,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -198,9 +201,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "News App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A news app built in react, styled using bootstrap, fetches news from news api.",
       tags: [
         {
           name: "react",
@@ -215,49 +218,49 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: JMJ,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "myNotebook",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to securely storing and accessing personal notes.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "expresjs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bcryptjs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: myNotebook,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "textUtils",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "texUtils is a utility which can be used to manipulate your text.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          //name: "supabase",
+          //color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          //name: "css",
+          //color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: textutils,
       source_code_link: "https://github.com/",
     },
   ];
