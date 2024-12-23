@@ -18,7 +18,7 @@ const Navbar = () => {
           }}>
             <img src={logo} style={{borderRadius:250}} alt="logo" className='w-9 h-9 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-              Nitesh Muchhala &nbsp;
+              Mayank Kumar &nbsp;
               <span className='sm:block hidden'>| WebDeveloper</span>
               </p>
           </Link>
